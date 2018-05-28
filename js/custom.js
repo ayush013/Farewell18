@@ -21,6 +21,47 @@ elem.change(function () {
 
 });
 
+$(document).ready( function() {
+  $("#submitpoll").on("click", function() {
+    var vote_m = $("input[name=male]:checked").val();
+    var vote_f = $("input[name=female]:checked").val();
+    $("#presvg").show(),
+    $("#loader").show(),
+    $("#loaderoverlay").show(),
+    $.ajax({
+            type: "POST",
+            url: "poll.php",
+            data: {male: vote_m, female: vote_f},
+            success: function(data) {
+              console.log(data),
+              $('#presvg').fadeOut(),
+              $('#loader').delay(700).fadeOut('slow'),
+              $('#loaderoverlay').delay(700).fadeOut('slow'),
+              console.log("working"),
+              $('#voteModal').modal("hide"),
+              Result(),
+              $('#resultModal').modal("show")
+          },
+          error: function(data) {
+            console.log(data)
+          }
+        })
+})
+});
+
+function Result() {
+    $.ajax({
+            type: "POST",
+            url: "result.php",
+            success: function(data) {
+              console.log(data)
+          },
+          error: function(data) {
+            console.log(data)
+          }
+        })
+};
+
 var scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
     offset: 0, 

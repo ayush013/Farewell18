@@ -17,26 +17,6 @@
     <?php
     $maleErr = $femaleErr = "";
     $male = $female = "";
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    
-      if (empty($_POST["male"])) {
-        $maleErr = "* Please make a choice";
-      } else {
-        $male = test_input($_POST["male"]);
-      }
-      if (empty($_POST["female"])) {
-        $femaleErr = "* Please make a choice";
-      } else {
-        $female = test_input($_POST["female"]);
-      }
-    }
-    
-    function test_input($data) {
-      $data = trim($data);
-      $data = stripslashes($data);
-      $data = htmlspecialchars($data);
-      return $data;
-    }
     ?>
 
 <style type="text/css">
@@ -307,32 +287,20 @@
     
     <div class="row">
         <div class="col-12 col-md" data-tilt>
-            <a href="#votemodal">
-              <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-              <span class="dpvote"> VOTE NOW</span>
-              <span> AYUSH</span>
-            </a>
+              <img src="./assets/parashar.jpg" alt="dp" class="img-fluid">
+              <span> Dr. V K PARASHAR</span>
             </div>
             <div class="col-12 col-md" data-tilt>
-                <a href="#votemodal">
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-                  <span class="dpvote"> VOTE NOW</span>
-                  <span> AYUSH</span>
-            </a>
+                  <img src="./assets/kunal.jpg" alt="dp" class="img-fluid">
+                  <span> KUNAL RAJPUT</span>
             </div>
             <div class="col-12 col-md" data-tilt>
-                <a href="#votemodal">
                   <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-                  <span class="dpvote"> VOTE NOW</span>
                   <span> AYUSH</span>
-            </a>
             </div>
             <div class="col-12 col-md" data-tilt>
-                <a href="#votemodal">
                   <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-                  <span class="dpvote"> VOTE NOW</span>
                   <span> AYUSH</span>
-            </a>
             </div>
     </div>
 </div>
@@ -346,41 +314,41 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+            <form method="post">
                 <h2 class="abouttitle" id="fwtitle">Mr. Farewell  
                   <span class="error"><?php echo $maleErr;?></span>
                 </h2>
             <div class="row">
               <div class="col">
-                  <input type="radio" name="male" id="m1" class="input-hidden" <?php if (isset($male) && $male=="m1") echo "checked";?> value="m1" />
+                  <input type="radio" name="male" id="m1" class="input-hidden" <?php if (isset($male) && $male=="1") echo "checked";?> checked value="1" />
                 <label for="m1">
                   <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
                   <span> AYUSH</span>
                 </label>
               </div>
               <div class="col">
-                  <input type="radio" name="male" id="m2" class="input-hidden" <?php if (isset($male) && $male=="m2") echo "checked";?> value="m2"/>
+                  <input type="radio" name="male" id="m2" class="input-hidden" <?php if (isset($male) && $male=="2") echo "checked";?> value="2"/>
                 <label for="m2">
                   <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
                   <span> AYUSH</span>
                 </label>
               </div>
               <div class="col">
-                  <input type="radio" name="male" id="m3" class="input-hidden" <?php if (isset($male) && $male=="m3") echo "checked";?> value="m3" />
+                  <input type="radio" name="male" id="m3" class="input-hidden" <?php if (isset($male) && $male=="3") echo "checked";?> value="3" />
                 <label for="m3">
                   <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
                   <span> AYUSH</span>
                 </label>
               </div>
               <div class="col">
-                  <input type="radio" name="male" id="m4" class="input-hidden" <?php if (isset($male) && $male=="m4") echo "checked";?> value="m4" />
+                  <input type="radio" name="male" id="m4" class="input-hidden" <?php if (isset($male) && $male=="4") echo "checked";?> value="4" />
                 <label for="m4">
                   <img src="./assets/dp.jpg" class="img-fluid" data-tilt />
                   <span> AYUSH</span>
                 </label>
               </div>
               <div class="col">
-                  <input type="radio" name="male" id="m5" class="input-hidden" <?php if (isset($male) && $male=="m5") echo "checked";?> value="m5" />
+                  <input type="radio" name="male" id="m5" class="input-hidden" <?php if (isset($male) && $male=="5") echo "checked";?> value="5" />
                 <label for="m5">
                   <img src="./assets/dp.jpg" class="img-fluid" data-tilt />
                   <span> AYUSH</span>
@@ -393,56 +361,50 @@
             </h2>
             <div class="row">
                 <div class="col">
-                    <input type="radio" name="female" id="f1" class="input-hidden"  <?php if (isset($female) && $female=="f1") echo "checked";?> value="f1" />
+                    <input type="radio" name="female" id="f1" class="input-hidden"  <?php if (isset($female) && $female=="1") echo "checked";?> checked value="1" />
                   <label for="f1">
                     <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
                     <span> AYUSH</span>
                   </label>
                 </div>
                 <div class="col">
-                    <input type="radio" name="female" id="f2" class="input-hidden"  <?php if (isset($female) && $female=="f2") echo "checked";?> value="f2" />
+                    <input type="radio" name="female" id="f2" class="input-hidden"  <?php if (isset($female) && $female=="2") echo "checked";?> value="2" />
                   <label for="f2">
                     <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
                     <span> AYUSH</span>
                   </label>
                 </div>
                 <div class="col">
-                    <input type="radio" name="female" id="f3" class="input-hidden"  <?php if (isset($female) && $female=="f3") echo "checked";?> value="f3" />
+                    <input type="radio" name="female" id="f3" class="input-hidden"  <?php if (isset($female) && $female=="3") echo "checked";?> value="3" />
                   <label for="f3">
                     <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
                     <span> AYUSH</span>
                   </label>
                 </div>
                 <div class="col">
-                    <input type="radio" name="female" id="f4" class="input-hidden"  <?php if (isset($female) && $female=="f4") echo "checked";?> value="f4" />
+                    <input type="radio" name="female" id="f4" class="input-hidden"  <?php if (isset($female) && $female=="4") echo "checked";?> value="4" />
                   <label for="f4">
                     <img src="./assets/dp.jpg" class="img-fluid" data-tilt />
                     <span> AYUSH</span>
                   </label>
                 </div>
                 <div class="col">
-                    <input type="radio" name="female" id="f5" class="input-hidden"  <?php if (isset($female) && $female=="f5") echo "checked";?> value="f5" />
+                    <input type="radio" name="female" id="f5" class="input-hidden"  <?php if (isset($female) && $female=="5") echo "checked";?> value="5" />
                   <label for="f5">
                     <img src="./assets/dp.jpg" class="img-fluid" data-tilt />
                     <span> AYUSH</span>
                   </label>
                 </div>
             </div>
-            <input type="submit" class="btn" value="Verify">
+            <input type="button" class="btn" value="Vote" id="submitpoll">
           </form>
-          <?php
-              echo "<h2>Your Input:</h2>";
-              echo $male;
-              echo "<br>";
-              echo $female;
-            ?>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Result Modal -->
-<!-- <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModal" aria-hidden="true">
+<div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModal" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-body">
@@ -551,7 +513,7 @@
         </div>
       </div>
     </div>
-  </div> -->
+  </div> 
 
 <div class="container" id="webteam">
 
@@ -559,34 +521,25 @@
     
     <div class="row">
         <div class="col-12 col-md" data-tilt >
-            <a href="#votemodal">
+              <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+              <span> AYUSH</span>
+            </div>
+            <div class="col-12 col-md" data-tilt>
               <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
               <span> AYUSH</span>
             </a>
             </div>
             <div class="col-12 col-md" data-tilt>
-            <a href="#votemodal">
-              <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-              <span> AYUSH</span>
-            </a>
-            </div>
-            <div class="col-12 col-md" data-tilt>
-                <a href="#votemodal">
                   <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
                   <span> AYUSH</span>
-            </a>
             </div>
             <div class="col-12 col-md" data-tilt>
-                <a href="#votemodal">
                   <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
                   <span> AYUSH</span>
-            </a>
             </div>
             <div class="col-12 col-md" data-tilt>
-                <a href="#votemodal">
                   <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
                   <span> AYUSH</span>
-            </a>
             </div>
         </div>
 </div>

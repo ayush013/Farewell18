@@ -425,7 +425,7 @@ a.btn span {
 }
 
 
-#poll span {
+#poll span, #convenor span, #webteam span {
   color: white;
   text-align: center;
   display: block;
@@ -440,7 +440,7 @@ a.btn span {
   opacity: 0.8;
 }
 
-#poll a:hover {
+#poll a:hover, #convenor a:hover, #webteam a:hover {
  text-decoration: none;
 }
 
