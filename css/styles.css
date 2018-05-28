@@ -407,7 +407,8 @@ a.btn span {
 #about span {
   color: white;
   font-weight: 300;
-  text-align: justify;
+  font-size: 1.2em;
+  text-align: center;
   display: block;
   padding: 6vh 4vw;
 }
@@ -416,20 +417,17 @@ a.btn span {
   height: 85vh;
 }
 
-#jarallax-container-1, #jarallax-container-2, #jarallax-container-3, #jarallax-container-4, #jarallax-container-0 {
-  position:  relative !important;
-}
-
-#jarallax-container-1 .jarallax-img, #jarallax-container-2 .jarallax-img, #jarallax-container-3 .jarallax-img, #jarallax-container-4 .jarallax-img, #jarallax-container-0 .jarallax-img {
-  position:  relative !important;
-}
-
 
 #poll span, #convenor span, #webteam span {
   color: white;
   text-align: center;
   display: block;
   font-size: 1.2em;
+  padding-top: 2vh;
+}
+
+#convenor img, #webteam img {
+  border-radius: 50%;
 }
 
 
@@ -607,4 +605,24 @@ input[type="range"]:focus {
   font-size: 0.7em;
   color: white;
   text-shadow: 0px 0px 6px red, 0px 0px 6px red, 0px 0px 6px red, 0px 0px 6px red;
+}
+
+@media screen and (max-width:1100px) {
+  .rangewrapper {
+    margin-top: 0;
+}
+
+}
+
+@media screen and (max-width:830px) {
+  .btn {
+    width: 18vw;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  height: 30px;
+  width: 30px;
+
+}
+
 }

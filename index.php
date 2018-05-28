@@ -66,23 +66,14 @@
 
 <nav class="navbar navbar-expand-lg  navbar-dark fixed-top">
   
-  <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-            <object id="logo" data="./assets/logo_animated.svg" style="height: 5vh;" type="image/svg+xml"></object>
-        </div>
-        <div class="col">
-        </div>
-        <div class="col">
-        </div>    
-      </div>
-  </div>
+<object id="logo" data="./assets/logo_animated.svg" style="height: 5vh;" type="image/svg+xml"></object>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+  </button>  
+
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active topBotomBordersOut">
         <a class="nav-link" href="#home">Home</a>
       </li>
@@ -147,16 +138,16 @@
 
     <h1 class="abouttitle">About Amantrya</h1>
     <span>
-      Lorem ipsum dolor sit amet, tacimates suavitate temporibus ea vis, eam cu aperiri omittam evertitur. Ea pri iisque fabulas. Soleat denique platonem te has. Ex eam errem referrentur.
-
-        Ubique eirmod appetere eos te. Vitae postulant ei cum. Est no modo disputationi, eum facilisis repudiare accommodare id. Ne partem aliquam detraxit qui, ferri lucilius instructior usu in.
-        
-        Eos ne congue ornatus recteque, viris legendos iudicabit in qui, ut eruditi imperdiet scripserit sed. Mea ex deserunt sententiae, est ad noster dolorum maluisset, sit duis dicant in. Nam officiis forensibus ex. Porro debet appareat mea at.
-        
-        Ex qui illud ridens, dicunt tritani ius ex, qui ei fugit scriptorem. Perpetua signiferumque vim ea. An sensibus philosophia per, agam eruditi qui et. In aeterno signiferumque quo, utroque appetere constituam eu cum. Vitae praesent eum no, nam tollit omittam sapientem et, no fierent dignissim expetendis nam.
-        
-        Nisl offendit his ei. Veri facilisi mea et, cu vitae consetetur sea. Eu per case cibo, at sit zril aperiam mandamus. Vocent labores adversarium eum id. Nemore nonumes accusamus an vis, an mea fabulas philosophia signiferumque, animal pertinacia ne nam.
-      </span>
+    "Goodbyes are never easy. It is never easy to let someone go who has been a big part of the memories that we created. People, who held our hands and helped us to walk across the various phases of life. People, who moulded us to be what we are today. Saying goodbye to such people will always be hard."
+    <br><br>
+    With the feeling of gratitude envisaged in their hearts, the students of B.Tech 3rd organises <br><b style="font-weight: 700; font-size: 1.3em;">Amantrya: Farewell 2018</b><br> to honour the batch of 2018.
+    <br><br>
+    <b style="font-weight: 700;">Date: 1<sup>st</sup> June 2018
+    <br>
+    Time: 6:00 PM
+    <br>
+    Venue: Main Football Ground</b>
+  </span>
 </div>
 <div class="container" id="gallery">
     <h1 class="abouttitle">Gallery</h1>
@@ -170,20 +161,20 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active jarallax" data-jarallax data-speed="0.2">
-            <img class="d-block w-100 jarallax-img" src="./assets/caro.jpg" alt="First slide">
+          <div class="carousel-item active" >
+            <img class="d-block w-100" src="./assets/c1.jpg" alt="First slide">
           </div>
-          <div class="carousel-item jarallax" data-jarallax data-speed="0.2">
-            <img class="d-block w-100 jarallax-img" src="./assets/caro.jpg" alt="Second slide">
+          <div class="carousel-item" >
+            <img class="d-block w-100" src="./assets/c2.jpg" alt="Second slide">
           </div>
-          <div class="carousel-item jarallax" data-jarallax data-speed="0.2">
-            <img class="d-block w-100 jarallax-img" src="./assets/caro.jpg" alt="Third slide">
+          <div class="carousel-item" >
+            <img class="d-block w-100" src="./assets/c3.jpg" alt="Third slide">
           </div>
-          <div class="carousel-item jarallax" data-jarallax data-speed="0.2">
-              <img class="d-block w-100 jarallax-img" src="./assets/caro.jpg" alt="Fourth slide">
+          <div class="carousel-item ">
+              <img class="d-block w-100 " src="./assets/c4.jpg" alt="Fourth slide">
             </div>
-            <div class="carousel-item jarallax" data-jarallax data-speed="0.2">
-                <img class="d-block w-100 jarallax-img" src="./assets/caro.jpg" alt="Fifth slide">
+            <div class="carousel-item" >
+                <img class="d-block w-100" src="./assets/c5.jpg" alt="Fifth slide">
               </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -209,35 +200,35 @@
     <div class="row">
         <div class="col-12 col-md" data-tilt>
             <a data-toggle="modal" data-target="#voteModal">
-              <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+              <img src="./assets/shobhit.jpeg" alt="dp" class="img-fluid">
               <span class="dpvote"> VOTE NOW</span>
-              <span> AYUSH</span>
+              <span> SHOBHIT PUNDIR</span>
             </a>
             </div>
             <div class="col-12 col-md" data-tilt>
             <a data-toggle="modal" data-target="#voteModal">
-              <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+              <img src="./assets/kushank.jpeg" alt="dp" class="img-fluid">
               <span class="dpvote"> VOTE NOW</span>
-              <span> AYUSH</span>
+              <span> KUSHANK JAISWAL</span>
             </a>
             </div>
             <div class="col-12 col-md" data-tilt>
                 <a data-toggle="modal" data-target="#voteModal">
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+                  <img src="./assets/shantanu.jpg" alt="dp" class="img-fluid">
                   <span class="dpvote"> VOTE NOW</span>
-                  <span> AYUSH</span>
+                  <span> SHANTANU PARASHAR</span>
             </a>
             </div>
             <div class="col-12 col-md" data-tilt>
                 <a data-toggle="modal" data-target="#voteModal">
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+                  <img src="./assets/siddharth.jpeg" alt="dp" class="img-fluid">
                   <span class="dpvote"> VOTE NOW</span>
-                  <span> AYUSH</span>
+                  <span> SIDDHARTH KUMAR </span>
             </a>
             </div>
             <div class="col-12 col-md" data-tilt>
                 <a data-toggle="modal" data-target="#voteModal">
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+                  <img src="./assets/ayush.jpg" alt="dp" class="img-fluid">
                   <span class="dpvote"> VOTE NOW</span>
                   <span> AYUSH</span>
             </a>
@@ -246,35 +237,35 @@
     <div class="row">
         <div class="col-12 col-md" data-tilt>
             <a data-toggle="modal" data-target="#voteModal">
-              <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+              <img src="./assets/shubhi.jpeg" alt="dp" class="img-fluid">
               <span class="dpvote"> VOTE NOW</span>
-              <span> AYUSH</span>
+              <span> SHUBHI KAPOOR</span>
             </a>
             </div>
             <div class="col-12 col-md" data-tilt>
             <a data-toggle="modal" data-target="#voteModal">
-              <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+              <img src="./assets/sakshi.jpeg" alt="dp" class="img-fluid">
               <span class="dpvote"> VOTE NOW</span>
-              <span> AYUSH</span>
+              <span> SAKSHI SINGH</span>
             </a>
             </div>
             <div class="col-12 col-md" data-tilt>
                 <a data-toggle="modal" data-target="#voteModal">
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+                  <img src="./assets/diksha.jpeg" alt="dp" class="img-fluid">
                   <span class="dpvote"> VOTE NOW</span>
-                  <span> AYUSH</span>
+                  <span> DIKSHA SINGH</span>
             </a>
             </div>
             <div class="col-12 col-md" data-tilt>
                 <a data-toggle="modal" data-target="#voteModal">
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+                  <img src="./assets/divya.jpeg" alt="dp" class="img-fluid">
                   <span class="dpvote"> VOTE NOW</span>
-                  <span> AYUSH</span>
+                  <span> DIVYA SINGH</span>
             </a>
             </div>
             <div class="col-12 col-md" data-tilt>
                 <a data-toggle="modal" data-target="#voteModal">
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
+                  <img src="./assets/ayush.jpg" alt="dp" class="img-fluid">
                   <span class="dpvote"> VOTE NOW</span>
                   <span> AYUSH</span>
             </a>
@@ -285,23 +276,38 @@
 
     <h1 class="abouttitle">Convenors</h1>
     
-    <div class="row">
-        <div class="col-12 col-md" data-tilt>
+    <div class="row" style="padding-bottom: 5vh;">
+      <div class="col-md"></div>
+        <div class="col-12 col-md-3" data-tilt>
               <img src="./assets/parashar.jpg" alt="dp" class="img-fluid">
               <span> Dr. V K PARASHAR</span>
-            </div>
+        </div>
+        <div class="col-md"></div>
+        </div>
+        <div class="row">
+        <div class="col-md-1"></div>
             <div class="col-12 col-md" data-tilt>
+              <a href="https://www.facebook.com/kunal.rajput.908" target="_blank">
                   <img src="./assets/kunal.jpg" alt="dp" class="img-fluid">
-                  <span> KUNAL RAJPUT</span>
+                  <span> KUNAL</span>
+              </a>
             </div>
+            <div class="col-md-1"></div>
             <div class="col-12 col-md" data-tilt>
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-                  <span> AYUSH</span>
+            <a href="https://www.facebook.com/aanya.singh.3194524" target="_blank">
+                  <img src="./assets/ayushi.jpeg" alt="dp" class="img-fluid">
+                  <span> AYUSHI SINGH</span>
+            </a>
             </div>
+            <div class="col-md-1"></div>
             <div class="col-12 col-md" data-tilt>
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-                  <span> AYUSH</span>
+            <a href="#" target="_blank">
+                  <img src="./assets/tushar.jpeg" alt="dp" class="img-fluid">
+                  <span> TUSHAR SHARMA</span>
+            </a>
             </div>
+            <div class="col-md-1"></div>
+        </div>
     </div>
 </div>
 
@@ -322,35 +328,35 @@
               <div class="col">
                   <input type="radio" name="male" id="m1" class="input-hidden" <?php if (isset($male) && $male=="1") echo "checked";?> checked value="1" />
                 <label for="m1">
-                  <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
-                  <span> AYUSH</span>
+                  <img src="./assets/shobhit.jpeg" class="img-fluid" data-tilt/>
+                  <span> SHOBHIT PUNDIR</span>
                 </label>
               </div>
               <div class="col">
                   <input type="radio" name="male" id="m2" class="input-hidden" <?php if (isset($male) && $male=="2") echo "checked";?> value="2"/>
                 <label for="m2">
-                  <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
-                  <span> AYUSH</span>
+                  <img src="./assets/kushank.jpeg" class="img-fluid" data-tilt/>
+                  <span> KUSHANK JAISWAL</span>
                 </label>
               </div>
               <div class="col">
                   <input type="radio" name="male" id="m3" class="input-hidden" <?php if (isset($male) && $male=="3") echo "checked";?> value="3" />
                 <label for="m3">
-                  <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
-                  <span> AYUSH</span>
+                  <img src="./assets/shantanu.jpg" class="img-fluid" data-tilt/>
+                  <span> SHANTANU PARASHAR</span>
                 </label>
               </div>
               <div class="col">
                   <input type="radio" name="male" id="m4" class="input-hidden" <?php if (isset($male) && $male=="4") echo "checked";?> value="4" />
                 <label for="m4">
-                  <img src="./assets/dp.jpg" class="img-fluid" data-tilt />
-                  <span> AYUSH</span>
+                  <img src="./assets/siddharth.jpeg" class="img-fluid" data-tilt />
+                  <span> SIDDHARTH KUMAR</span>
                 </label>
               </div>
               <div class="col">
                   <input type="radio" name="male" id="m5" class="input-hidden" <?php if (isset($male) && $male=="5") echo "checked";?> value="5" />
                 <label for="m5">
-                  <img src="./assets/dp.jpg" class="img-fluid" data-tilt />
+                  <img src="./assets/ayush.jpg" class="img-fluid" data-tilt />
                   <span> AYUSH</span>
                 </label>
               </div>
@@ -363,35 +369,35 @@
                 <div class="col">
                     <input type="radio" name="female" id="f1" class="input-hidden"  <?php if (isset($female) && $female=="1") echo "checked";?> checked value="1" />
                   <label for="f1">
-                    <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
-                    <span> AYUSH</span>
+                    <img src="./assets/shubhi.jpeg" class="img-fluid" data-tilt/>
+                    <span> SHUBHI KAPOOR</span>
                   </label>
                 </div>
                 <div class="col">
                     <input type="radio" name="female" id="f2" class="input-hidden"  <?php if (isset($female) && $female=="2") echo "checked";?> value="2" />
                   <label for="f2">
-                    <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
-                    <span> AYUSH</span>
+                    <img src="./assets/sakshi.jpeg" class="img-fluid" data-tilt/>
+                    <span> SAKSHI SINGH</span>
                   </label>
                 </div>
                 <div class="col">
                     <input type="radio" name="female" id="f3" class="input-hidden"  <?php if (isset($female) && $female=="3") echo "checked";?> value="3" />
                   <label for="f3">
-                    <img src="./assets/dp.jpg" class="img-fluid" data-tilt/>
-                    <span> AYUSH</span>
+                    <img src="./assets/diksha.jpeg" class="img-fluid" data-tilt/>
+                    <span> DIKSHA SINGH</span>
                   </label>
                 </div>
                 <div class="col">
                     <input type="radio" name="female" id="f4" class="input-hidden"  <?php if (isset($female) && $female=="4") echo "checked";?> value="4" />
                   <label for="f4">
-                    <img src="./assets/dp.jpg" class="img-fluid" data-tilt />
-                    <span> AYUSH</span>
+                    <img src="./assets/divya.jpeg" class="img-fluid" data-tilt />
+                    <span> DIVYA SINGH</span>
                   </label>
                 </div>
                 <div class="col">
                     <input type="radio" name="female" id="f5" class="input-hidden"  <?php if (isset($female) && $female=="5") echo "checked";?> value="5" />
                   <label for="f5">
-                    <img src="./assets/dp.jpg" class="img-fluid" data-tilt />
+                    <img src="./assets/ayush.jpg" class="img-fluid" data-tilt />
                     <span> AYUSH</span>
                   </label>
                 </div>
@@ -414,97 +420,77 @@
             </button>
             <form style="padding-bottom: 0;">
                 <div class="row">
-                  <div class="col">
+                  <div class="col-12 col-sm-12 col-md-6">
                     <div class="row" id="resultwrapper">
-                        <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                        <div class="col">
-                            <div class="value">0%</div>
-                        </div>
+                        <div class="col-3"><img src="./assets/shobhit.jpeg" class="img-fluid" id="resultdp"></div>
+                        
                         <div class="col-8 rangewrapper">
-                          <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                          <input type="range" name="resultrange" id="res1" value="55" min="1" max="100" step="1" disabled>
                         </div>
                     </div>
                     <div class="row" id="resultwrapper">
-                        <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                        <div class="col">
-                            <div class="value">0%</div>
-                        </div>
+                        <div class="col-3"><img src="./assets/kushank.jpeg" class="img-fluid" id="resultdp"></div>
+
                         <div class="col-8 rangewrapper">
-                          <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                          <input type="range" name="resultrange" id="res2" value="55" min="1" max="100" step="1" disabled>
                         </div>
                     </div>
                     <div class="row" id="resultwrapper">
-                        <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                        <div class="col">
-                            <div class="value">0%</div>
-                        </div>
+                        <div class="col-3"><img src="./assets/shantanu.jpg" class="img-fluid" id="resultdp"></div>
+
                         <div class="col-8 rangewrapper">
-                          <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                          <input type="range" name="resultrange" id="res3" value="55" min="1" max="100" step="1" disabled>
                         </div>
                     </div>
                     <div class="row" id="resultwrapper">
-                        <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                        <div class="col">
-                            <div class="value">0%</div>
-                        </div>
+                        <div class="col-3"><img src="./assets/siddharth.jpeg" class="img-fluid" id="resultdp"></div>
+
                         <div class="col-8 rangewrapper">
-                          <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                          <input type="range" name="resultrange" id="res4" value="55" min="1" max="100" step="1" disabled>
                         </div>
                     </div>
                     <div class="row" id="resultwrapper">
-                        <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                        <div class="col">
-                            <div class="value">0%</div>
-                        </div>
+                        <div class="col-3"><img src="./assets/ayush.jpg" class="img-fluid" id="resultdp"></div>
+
                         <div class="col-8 rangewrapper">
-                          <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                          <input type="range" name="resultrange" id="res5" value="55" min="1" max="100" step="1" disabled>
                         </div>
                     </div>
                   </div>
-                  <div class="col">
+                  <div class="col-12 col-sm-12 col-md-6">
                       <div class="row" id="resultwrapper">
-                          <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                          <div class="col">
-                              <div class="value">0%</div>
-                          </div>
+                          <div class="col-3"><img src="./assets/shubhi.jpeg" class="img-fluid" id="resultdp"></div>
+
                           <div class="col-8 rangewrapper">
-                            <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                            <input type="range" name="resultrange" id="res6" value="55" min="1" max="100" step="1" disabled>
                           </div>
                       </div>
                       <div class="row" id="resultwrapper">
-                          <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                          <div class="col">
-                              <div class="value">0%</div>
-                          </div>
+                          <div class="col-3"><img src="./assets/sakshi.jpeg" class="img-fluid" id="resultdp"></div>
+
                           <div class="col-8 rangewrapper">
-                            <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                            <input type="range" name="resultrange" id="res7" value="55" min="1" max="100" step="1" disabled>
                           </div>
                       </div>
                       <div class="row" id="resultwrapper">
-                          <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                          <div class="col">
-                              <div class="value">0%</div>
-                          </div>
+                          <div class="col-3"><img src="./assets/diksha.jpeg" class="img-fluid" id="resultdp"></div>
+
                           <div class="col-8 rangewrapper">
-                            <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                            <input type="range" name="resultrange" id="res8" value="55" min="1" max="100" step="1" disabled>
                           </div>
                       </div>
                       <div class="row" id="resultwrapper">
-                          <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                          <div class="col">
-                              <div class="value">0%</div>
-                          </div>
+                          <div class="col-3"><img src="./assets/divya.jpeg" class="img-fluid" id="resultdp"></div>
+
                           <div class="col-8 rangewrapper">
-                            <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                            <input type="range" name="resultrange" id="res9" value="55" min="1" max="100" step="1" disabled>
                           </div>
                       </div>
                       <div class="row" id="resultwrapper">
-                          <div class="col-3"><img src="./assets/dp.jpg" class="img-fluid" id="resultdp"></div>
-                          <div class="col">
-                              <div class="value">0%</div>
-                          </div>
+                          <div class="col-3"><img src="./assets/ayush.jpg" class="img-fluid" id="resultdp"></div>
+
                           <div class="col-8 rangewrapper">
-                            <input type="range" name="maleresult" id="mres1" value="55" min="1" max="100" step="1">
+                            <input type="range" name="resultrange" id="res10" value="55" min="1" max="100" step="1" disabled>
                           </div>
                       </div>
                     </div>
@@ -520,39 +506,40 @@
     <h1 class="abouttitle">Web Team</h1>
     
     <div class="row">
-        <div class="col-12 col-md" data-tilt >
-              <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-              <span> AYUSH</span>
-            </div>
+    <div class="col-md-1"></div>
             <div class="col-12 col-md" data-tilt>
-              <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-              <span> AYUSH</span>
+              <a href="https://www.instagram.com/alphaayush/" target="_blank">
+                  <img src="./assets/ayush.jpg" alt="dp" class="img-fluid">
+                  <span> AYUSH SINGH </span>
+              </a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-12 col-md" data-tilt>
+            <a href="https://www.instagram.com/_akarsh_11/" target="_blank">
+                  <img src="./assets/akarsh.jpg" alt="dp" class="img-fluid">
+                  <span> AKARSH SRIVASTAVA</span>
             </a>
             </div>
+            <div class="col-md-1"></div>
             <div class="col-12 col-md" data-tilt>
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-                  <span> AYUSH</span>
+            <a href="https://www.instagram.com/akshat_srivastava2/" target="_blank">
+                  <img src="./assets/akshat.jpg" alt="dp" class="img-fluid">
+                  <span> AKSHAT SRIVASTVA</span>
+            </a>
             </div>
-            <div class="col-12 col-md" data-tilt>
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-                  <span> AYUSH</span>
-            </div>
-            <div class="col-12 col-md" data-tilt>
-                  <img src="./assets/dp.jpg" alt="dp" class="img-fluid">
-                  <span> AYUSH</span>
-            </div>
+            <div class="col-md-1"></div>
         </div>
 </div>
 
 <div class="container-fluid" id="footer">
    <div class="row">
-     <div class="col-12 col-md-1">
+     <div class="col-12 col-sm-1 col-md-1">
         <a href="http://www.akgec.in/" target="_blank"><img src="./assets/AKGEC_animated.svg" class="img-fluid"></a></div>
-     <div class="col-12 col-md-7">     <a href="http://www.akgec.in/" target="_blank">
+     <div class="col-12 col-md-7 col-sm-5">     <a href="http://www.akgec.in/" target="_blank">
       Ajay Kumar Garg Engineering College</a></div>
       
-      <div class="col-12 col-md-1"><a href="http://www.silive.in/" target="_blank"><img src="./assets/SILogo.svg" class="img-fluid"></a></div>
-      <div class="col-12 col-md-3">    <a href="http://www.silive.in/" target="_blank">
+      <div class="col-12 col-md-1 col-sm-1"><a href="http://www.silive.in/" target="_blank"><img src="./assets/SILogo.svg" class="img-fluid"></a></div>
+      <div class="col-12 col-md-3 col-sm-5">    <a href="http://www.silive.in/" target="_blank">
         Powered By Software Incubator</a></div>
 
       </div>
@@ -560,7 +547,6 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,100" rel="stylesheet">
 <script type="text/javascript" src="js/jquery.min.js"  ></script>
 <script type="text/javascript" src="js/bootstrap.min.js" ></script>
-<script type="text/javascript" src="js/jarallax.js"></script>
 <script type="text/javascript" src="js/parallax.js" ></script>
 <script type="text/javascript" src="js/flickneon.js" ></script>
 <script type="text/javascript" src="js/tilt.js" ></script>

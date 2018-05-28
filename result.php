@@ -1,8 +1,7 @@
 <?php 
     require 'dbconnection.php';
-    $votes_m= array();
+    $votes= array();
 
-    $votes_f= array();
 
     $sql2="SELECT * FROM poll";
 
@@ -10,7 +9,7 @@
 
     $count=mysqli_num_rows($query2);
 
-    for($x=1;$x<=5;x++)
+    for($x=1;$x<=5;$x++)
     {
         $sql3="SELECT * FROM poll WHERE vote_m='".$x."'";
 
@@ -18,10 +17,10 @@
 
         $count_vote=mysqli_num_rows($query3);
 
-        $votes_m[$x]= ($count_vote/$count)*100;
+        $votes[$x]= ($count_vote/$count)*100;
     }
 
-    for($x=1;$x<=5;x++)
+    for($x=1;$x<=5;$x++)
     {
         $sql4="SELECT * FROM poll WHERE vote_f='".$x."'";
 
@@ -29,11 +28,10 @@
 
         $count_vote=mysqli_num_rows($query4);
 
-        $votes_f[$x]= ($count_vote/$count)*100;
+        $votes[$x+5]= ($count_vote/$count)*100;
     }
 
-    echo($votes_m);
-    echo($votes_f);
+    echo(json_encode($votes));
     
 
 ?>
